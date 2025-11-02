@@ -1,0 +1,17 @@
+{
+  "name": "apache_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Prerak Varshney",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "npx tsx ./src/index.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2",
+    "typescript": "^5.9.3"
+  }
+}
